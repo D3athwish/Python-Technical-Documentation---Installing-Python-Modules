@@ -1,0 +1,97 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+code {
+  background-color: rgb(236, 240, 243);
+}
+
+.codeblockgray {
+  display: inline-block;
+  background-color: rgb(236, 240, 243);
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+
+.codeblockgreen {
+  display: inline-block;
+  background-color: #e0ffe0;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+header {
+  font-size: 30px;
+}
+
+h2,
+.h2 {
+  font-size: 25px;
+  font-weight: 1;
+}
+
+li {
+  line-height: 1.6;
+}
+
+.marginedit {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.menu {
+  list-style: none;
+}
+
+#navbar {
+  position: fixed;
+  background-color: #dedcdb;
+  top: 0px;
+  left: 0px;
+  min-width: 390px;
+  width: 403px;
+  height: 100%;
+  border-right: 3px solid black;
+  overflow: auto;
+}
+
+#navbar ul {
+  padding: 0;
+  margin: 0px;
+}
+
+#navbar a {
+  border-top: 1px solid gray;
+  display: block;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    min-width: 0px;
+    width: 0px;
+  }
+}
+
+#header-contents {
+  padding: 20px;
+  text-align: center;
+}
+
+#main-doc {
+  margin-left: 410px;
+}
+
+@media only screen and (max-width: 600px) {
+  #main-doc {
+    margin-left: 0px;
+  }
+}
